@@ -46,16 +46,16 @@ exports.create = async (req,res)=>{
            const count_person = (data.person_order).length
            
            if(count_person === 0){
-            return {
+            return res.status(400).send({
                 success:false,
                 message: `Kuota ${datas.ticket_type} melebihi tidak boleh 0`
-            }
+            })
            }
            if(count_person > datas.quota){
-            return {
+            return res.status(400).send({
                 success:false,
                 message: `Kuota ${datas.ticket_type} melebihi batas`
-            }
+            })
            }
 
            return {
