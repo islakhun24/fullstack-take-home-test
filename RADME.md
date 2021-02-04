@@ -6,7 +6,7 @@ How to install :
 
 
 POSTMAN url for documentations API's : 
-https://www.getpostman.com/collections/50e6399ca5c014657bce
+https://documenter.getpostman.com/view/7102996/TW73F6Py
 
 
 *Happy Testing
